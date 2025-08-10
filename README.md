@@ -10,12 +10,6 @@ A complete RESTful API for user management with full CRUD functionality.
 - [Features](#features)
 - [API Documentation](#api-documentation)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Examples](#examples)
-- [Testing](#testing)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -38,13 +32,22 @@ A complete RESTful API for user management with full CRUD functionality.
 #### Delete User
 
 
-## Create and activate virtual environment:
+## Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/flask-user-api.git
+   cd flask-user-api
+
+### Create and activate virtual environment:
 python -m venv venv
-# Linux/MacOS:
+
+### Linux/MacOS:
 source venv/bin/activate
-# Windows:
+
+### Windows:
 .\venv\Scripts\activate
 
-## Install dependencies:
+### Install dependencies:
 pip install flask
 
